@@ -1,0 +1,12 @@
+form#insertProduct {
+  max-width: 800px;
+}
+
+form#insertProduct input {
+  display: block;
+  margin: 10px 0px;
+}
+
+form#insertProduct button {
+  margin: 20px 0px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+    <title>AJAX Form</title>
+    <script src="/public/jquery-3.3.1.min.js"></script>
+    <link href="/public/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <h1>Form AJAX</h1>
+    <form id='insertProduct'>
+        <h2>Insert Product</h2>
+        <input type="text" name="productName" placeholder="Product name">
+        <input type="number" step="0.01" min="0" name="price" placeholder="Price">
+
+        <button type="submit ">Insert</button>
+    </form>
+
+    <button id="getProducts" type="submit">Get all products</button>
+
+    <pre id="result"></pre>
+
+    <script src="/public/submit.js "></script>
+</body>
+
+</html>
